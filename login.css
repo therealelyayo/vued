@@ -1,0 +1,2703 @@
+/**
+ * Despite the many references to external files, this file is not generated any longer. It
+ * is nowadays edited and maintained on its own.
+ */
+
+@charset "UTF-8";
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 50, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 64, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+/* line 74, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 86, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+a:focus {
+  outline: thin dotted; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 94, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 108, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 117, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 125, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+b,
+strong {
+  font-weight: 500; }
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+/* line 134, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 142, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 152, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+/* line 161, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+/* line 173, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+pre {
+  white-space: pre-wrap; }
+
+/**
+ * Set consistent quote types.
+ */
+/* line 181, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 189, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 197, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 205, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 209, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+/* line 221, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+/* line 229, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+/* line 241, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 253, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 264, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 275, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+button,
+input,
+select {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 289, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+/* line 301, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 314, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 326, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ */
+/* line 336, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 348, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 360, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Remove spinner (increment / decrement) from number input
+ */
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 369, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 393, ../../app/unowned/stylesheets/authentication/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 3, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* line 7, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.placeholder {
+  color: #818486;
+}
+
+/* line 14, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.text {
+  display: block;
+  width: 100%; }
+
+/* line 25, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.field {
+  margin: 0 14px 14px 0; }
+
+/* line 31, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.signup-errors {
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAMAAACnUt2HAAAAV1BMVEUAAADNmgP////NmgPNmgP////////NmgPNmgPNmgPxzmPNmgPPnQfRnwfRnwfVogjWogbstA7cpwXYowXrswjrsQPepwPpsAPNmgPlrQPnrgPiqgPkqwPA/RJwAAAAFXRSTlMAEBggQENNUGCAgY+RssLT4unx8fQsrcxiAAAAhklEQVR4Xl3OSRKDIBgF4d8hKM6iDTjc/5xJSiyFXn6LV0/uWu9bSdIWrI6tMACmiLB3AK5/W3mAUnCULxwBEWB8rN5u3OrbsoUbWbKAnXvQdeGO5UHsdWvgjQx/q84Lvb/wrH44kTSJ6D2AUgF3LQbiTTDiIN4EJytprNLMqc2N5B+V9Mm/n8ESr7nn2NAAAAAASUVORK5CYII=') no-repeat left 4px;
+  padding-left: 25px;
+  display: none;
+  min-height: 19px;
+  float: left; }
+
+/* line 39, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.page-error .nav-drawer .features,
+.page-error .square-signup-form .signup-upsell {
+  display: none; }
+
+/* line 43, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.footer, .grantscreen-modal-footer {
+  clear: both;
+  *zoom: 1; }
+/* line 38, ../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+.footer:after, .grantscreen-modal-footer:after {
+  content: "";
+  display: table;
+  clear: both; }
+/* line 46, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.footer .primary-button {
+  float: right;
+  min-width: 135px; }
+/* line 49, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.footer a.button {
+  float: right;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 32px; }
+/* line 54, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.footer .cancel {
+  margin-right: 14px; }
+
+/* line 59, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.signup-form .message-box-error,
+.signin-form .message-box-error {
+  display: none;
+  padding-right: 42px;
+  margin-bottom: 14px; }
+
+/* line 76, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.signup-section-full-width {
+  padding-bottom: 30px; }
+
+/* line 78, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.horizontal-signup-form, .signin-form {
+  position: relative; }
+/* line 81, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.horizontal-signup-form .field, .signin-form .field {
+  float: left;
+  width: 206.5px; }
+/* line 84, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.horizontal-signup-form .email-field, .signin-form .email-field {
+  width: 310px; }
+/* line 86, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.horizontal-signup-form .primary-button, .signin-form .primary-button {
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+@-moz-keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+@keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+.fade-label {
+  position: relative;
+}
+.fade-label label.text {
+  opacity: 1;
+  -moz-animation: fadeIn 400ms 1;
+  -webkit-animation: fadeIn 400ms 1;
+  animation: fadeIn 400ms 1;
+  -moz-transition: opacity 400ms linear;
+  -webkit-transition: opacity 400ms linear;
+  transition: opacity 400ms linear;
+  background: white;
+  height: 34px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #818486;
+}
+.fade-label label.text.hidden {
+  opacity: 0;
+  -moz-transition: opacity 100ms linear;
+  -webkit-transition: opacity 100ms linear;
+  transition: opacity 100ms linear;
+}
+.fade-label label.text span {
+  text-indent: 0;
+  display: block;
+  padding: 6px 10px 0;
+}
+.fade-label input.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+}
+.ie8 .fade-label input.text {
+  padding-bottom: 10px;
+}
+
+/* line 138, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.field {
+  float: left;
+  margin: 0 14px 14px 0;
+  width: 100%; }
+
+/* line 143, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.omega-field, .narrow-form .last-name-field,
+.narrow-form .street2-field,
+.narrow-form .postal-code-field,
+.narrow-form .business-ein-field,
+.narrow-form .dob-field,
+.narrow-form .account-name-field,
+.narrow-form .account-number-field,
+.narrow-form .confirm-account-number-field,
+.narrow-form .has-ein-field,
+.narrow-form #business-ein-field,
+.narrow-form .password-confirmation-field, .thin-form .street2-field,
+.thin-form .postal-code-field,
+.thin-form #business-ein-field,
+.thin-form .cc-security-code-field,
+.thin-form .cc-postal-code-field {
+  margin-right: 0; }
+
+/* line 146, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.radio-field,
+.checkbox-field {
+  padding: 5px 0;
+  width: auto; }
+
+/* line 151, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.radio-list,
+.checkbox-list {
+  margin-bottom: 14px; }
+/* line 154, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.radio-list .radio-field,
+.radio-list .checkbox-field,
+.checkbox-list .radio-field,
+.checkbox-list .checkbox-field {
+  float: none;
+  margin: 0;
+  padding: 0; }
+
+/* line 160, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.top-label,
+label.text {
+  display: block;
+  font-weight: 500; }
+
+/* line 165, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.dob-select {
+  white-space: nowrap; }
+
+/* line 167, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.dob-field-month {
+  width: 115px;
+  margin-right: 5px; }
+
+/* line 170, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.dob-field-day {
+  width: 65px;
+  margin-right: 5px; }
+/* line 173, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.dob-field-day select {
+  width: 139%; }
+
+/* line 175, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.dob-field-year {
+  width: 74px; }
+/* line 177, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.dob-field-year select {
+  width: 134%; }
+
+@media (-webkit-min-device-pixel-ratio: 0) {
+  /* line 182, ../../app/unowned/stylesheets/public/_form_layout.sass */
+  select {
+    width: 100%; }
+}
+/* line 188, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.narrow-form {
+  width: 542px;
+  margin: 0 auto; }
+
+/* line 192, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.narrow-half-field, .narrow-form .first-name-field,
+.narrow-form .last-name-field,
+.narrow-form .city-field,
+.narrow-form .business-name-field,
+.narrow-form .business-ein-field,
+.narrow-form .employee-count-field,
+.narrow-form .ssn-field,
+.narrow-form .dob-field,
+.narrow-form .phone-number-field,
+.narrow-form .routing-number-field,
+.narrow-form .account-number-field,
+.narrow-form .confirm-account-number-field,
+.narrow-form .has-ein-field,
+.narrow-form .account-type-field,
+.narrow-form .account-name-field,
+.narrow-form .password-field,
+.narrow-form .password-confirmation-field {
+  width: 264px; }
+
+/* line 196, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.narrow-quarter-field, .narrow-form .street2-field,
+.narrow-form .state-field,
+.narrow-form .postal-code-field,
+.narrow-form #business-ein-field {
+  width: 125px; }
+
+/* line 199, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.narrow-three-quarter-field, .narrow-form .street1-field,
+.narrow-form .city-state-field,
+.narrow-form .city-state-autocomplete-field {
+  width: 403px; }
+
+/* line 255, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.thin-form {
+  width: 358px;
+  margin: 0 auto; }
+
+/* line 259, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.thin-half-field, .thin-form .city-field {
+  width: 172px; }
+
+/* line 263, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.thin-quarter-field, .thin-form .street2-field,
+.thin-form .state-field,
+.thin-form .postal-code-field {
+  width: 79px; }
+
+/* line 266, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.thin-three-quarter-field, .thin-form .street1-field,
+.thin-form .city-state-field,
+.thin-form .city-state-autocomplete-field {
+  width: 265px; }
+
+/* line 270, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.thin-one-third-field, .thin-form .cc-security-code-field,
+.thin-form .cc-month-field,
+.thin-form .cc-year-field,
+.thin-form .cc-postal-code-field {
+  width: 110px; }
+
+/* line 273, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.thin-two-third-field, .thin-form .cc-number-field {
+  width: 234px; }
+
+/* line 309, ../../app/unowned/stylesheets/public/_form_layout.sass */
+#home-address {
+  clear: both; }
+
+/* line 312, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.city-state-autocomplete-hint {
+  line-height: 33px;
+  padding-left: 10px; }
+
+/* line 316, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.city-state-autocomplete-slide {
+  -moz-transition: width 0.5s;
+  -o-transition: width 0.5s;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s; }
+
+/* line 320, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.edit-toggle-field .edit-value {
+  display: none; }
+
+/* line 323, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.edit-toggle-editing .display-value {
+  display: none; }
+/* line 325, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.edit-toggle-editing .edit-value {
+  display: block; }
+
+.download-links {
+  white-space: nowrap;
+}
+.download-links .icon-iphone,
+.download-links .icon-android {
+  display: block;
+  width: 215px;
+}
+.download-links .icon-iphone {
+  margin: 0 10px 10px 0;
+}
+.download-links .icon-android {
+  margin: 0 0 10px 0;
+}
+
+/* line 359, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.locale-fr-CA .content-section.footer-signup-drawer .feature,
+.locale-fr-CA .drawer-content.signup-section .feature {
+  height: 85px; }
+/* line 361, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.locale-fr-CA .content-section.footer-signup-drawer .feature-cards,
+.locale-fr-CA .drawer-content.signup-section .feature-cards {
+  padding-top: 30px;
+  width: 124px; }
+/* line 364, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.locale-fr-CA .content-section.footer-signup-drawer .feature-price,
+.locale-fr-CA .drawer-content.signup-section .feature-price {
+  width: 290px;
+  padding-right: 20px;
+  padding-top: 22px; }
+/* line 368, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.locale-fr-CA .content-section.footer-signup-drawer .feature-price .price,
+.locale-fr-CA .drawer-content.signup-section .feature-price .price {
+  top: 25px;
+  left: 24px; }
+/* line 371, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.locale-fr-CA .content-section.footer-signup-drawer .feature-time,
+.locale-fr-CA .drawer-content.signup-section .feature-time {
+  width: 260px;
+  padding-left: 72px;
+  padding-top: 22px;
+}
+/* line 375, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.locale-fr-CA .content-section.footer-signup-drawer .feature-time .time,
+.locale-fr-CA .drawer-content.signup-section .feature-time .time {
+  top: 22px;
+  left: 24px;
+}
+/* line 378, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.locale-fr-CA .content-section.footer-signup-drawer .feature-device,
+.locale-fr-CA .drawer-content.signup-section .feature-device {
+  padding-left: 24px;
+  padding-top: 22px;
+  width: 215px;
+}
+/* line 383, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.locale-fr-CA .signin-section .title {
+  left: 0; }
+/* line 385, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.locale-fr-CA .signin-section .password-field {
+  width: 188px; }
+/* line 389, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.locale-fr-CA .nav-drawer .features,
+.locale-fr-CA .footer-signup-drawer .features {
+  margin: 0; }
+/* line 391, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.locale-fr-CA .nav-drawer .feature-price,
+.locale-fr-CA .footer-signup-drawer .feature-price {
+  padding-left: 96px; }
+/* line 393, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.locale-fr-CA .nav-drawer .signin-form,
+.locale-fr-CA .footer-signup-drawer .signin-form {
+  left: 235px; }
+/* line 395, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.locale-fr-CA .nav-drawer .account-actions,
+.locale-fr-CA .footer-signup-drawer .account-actions {
+  left: 815px; }
+/* line 398, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.locale-fr-CA .nav-drawer .signup-form .email-field,
+.locale-fr-CA .footer-signup-drawer .signup-form .email-field {
+  width: 294px; }
+/* line 400, ../../app/unowned/stylesheets/public/_form_layout.sass */
+.locale-fr-CA .nav-drawer .signup-form .password-field,
+.locale-fr-CA .nav-drawer .signup-form .password-confirmation-field,
+.locale-fr-CA .footer-signup-drawer .signup-form .password-field,
+.locale-fr-CA .footer-signup-drawer .signup-form .password-confirmation-field {
+  width: 215px; }
+
+/* line 20, ../../app/unowned/stylesheets/authentication/core/components/_typography.sass */
+body {
+  color: inherit;
+  font-size: 14px;
+  line-height: 1;
+  font-family: inherit;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  margin: 0;
+}
+h1 {
+  font-size: 28px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 14px;
+}
+
+/* line 58, ../../app/unowned/stylesheets/authentication/core/components/_typography.sass */
+.type-align-left {
+  text-align: left; }
+
+/* line 61, ../../app/unowned/stylesheets/authentication/core/components/_typography.sass */
+.type-align-center {
+  text-align: center; }
+
+/* line 64, ../../app/unowned/stylesheets/authentication/core/components/_typography.sass */
+.type-align-right {
+  text-align: right; }
+
+/* line 67, ../../app/unowned/stylesheets/authentication/core/components/_typography.sass */
+.type-w {
+  font-weight: 400; }
+
+/* line 70, ../../app/unowned/stylesheets/authentication/core/components/_typography.sass */
+.type-w-medium {
+  font-weight: 500; }
+
+/* line 73, ../../app/unowned/stylesheets/authentication/core/components/_typography.sass */
+.type-w-bold {
+  font-weight: 700; }
+
+/* line 76, ../../app/unowned/stylesheets/authentication/core/components/_typography.sass */
+.type-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+/* line 81, ../../app/unowned/stylesheets/authentication/core/components/_typography.sass */
+.type-prewrap {
+  white-space: pre-wrap; }
+
+/* line 84, ../../app/unowned/stylesheets/authentication/core/components/_typography.sass */
+.type-break-word {
+  word-wrap: break-word; }
+
+/* line 87, ../../app/unowned/stylesheets/authentication/core/components/_typography.sass */
+.type-tnum {
+  font-feature-settings: tnum 1; }
+
+@font-face {
+  font-family: "SqMarket";
+  src: url('../fonts/sqmarket/sqmarket-light.eot');
+  src: url('../fonts/sqmarket/sqmarket-light.eot?#iefix') format('embedded-opentype'), url('../fonts/sqmarket/sqmarket-light.otf') format('opentype'), url('../fonts/sqmarket/sqmarket-light.woff') format('woff'), url('../fonts/sqmarket/sqmarket-light.ttf') format('truetype'), url('../fonts/sqmarket/sqmarket-light.svg') format('svg');
+  font-weight: 100; }
+@font-face {
+  font-family: "SqMarket";
+  src: url('../fonts/sqmarket/sqmarket-lightitalic.eot');
+  src: url('../fonts/sqmarket/sqmarket-lightitalic.eot?#iefix') format('embedded-opentype'), url('../fonts/sqmarket/sqmarket-lightitalic.otf') format('opentype'), url('../fonts/sqmarket/sqmarket-lightitalic.woff') format('woff'), url('../fonts/sqmarket/sqmarket-lightitalic.ttf') format('truetype'), url('../fonts/sqmarket/sqmarket-lightitalic.svg') format('svg');
+  font-weight: 100;
+  font-style: italic; }
+@font-face {
+  font-family: "SqMarket";
+  src: url('../fonts/sqmarket/sqmarket-regular.eot');
+  src: url('../fonts/sqmarket/sqmarket-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/sqmarket/sqmarket-regular.otf') format('opentype'), url('../fonts/sqmarket/sqmarket-regular.woff') format('woff'), url('../fonts/sqmarket/sqmarket-regular.ttf') format('truetype'), url('../fonts/sqmarket/sqmarket-regular.svg') format('svg');
+  font-weight: 400; }
+@font-face {
+  font-family: "SqMarket";
+  src: url('../fonts/sqmarket/sqmarket-regularitalic.eot');
+  src: url('../fonts/sqmarket/sqmarket-regularitalic.eot?#iefix') format('embedded-opentype'), url('../fonts/sqmarket/sqmarket-regularitalic.otf') format('opentype'), url('../fonts/sqmarket/sqmarket-regularitalic.woff') format('woff'), url('../fonts/sqmarket/sqmarket-regularitalic.ttf') format('truetype'), url('../fonts/sqmarket/sqmarket-regularitalic.svg') format('svg');
+  font-weight: 400;
+  font-style: italic; }
+@font-face {
+  font-family: "SqMarket";
+  src: url('../fonts/sqmarket/sqmarket-medium.eot');
+  src: url('../fonts/sqmarket/sqmarket-medium.eot?#iefix') format('embedded-opentype'), url('../fonts/sqmarket/sqmarket-medium.otf') format('opentype'), url('../fonts/sqmarket/sqmarket-medium.woff') format('woff'), url('../fonts/sqmarket/sqmarket-medium.ttf') format('truetype'), url('../fonts/sqmarket/sqmarket-medium.svg') format('svg');
+  font-weight: 500; }
+@font-face {
+  font-family: "SqMarket";
+  src: url('../fonts/sqmarket/sqmarket-mediumitalic.eot');
+  src: url('../fonts/sqmarket/sqmarket-mediumitalic.eot?#iefix') format('embedded-opentype'), url('../fonts/sqmarket/sqmarket-mediumitalic.otf') format('opentype'), url('../fonts/sqmarket/sqmarket-mediumitalic.woff') format('woff'), url('../fonts/sqmarket/sqmarket-mediumitalic.ttf') format('truetype'), url('../fonts/sqmarket/sqmarket-mediumitalic.svg') format('svg');
+  font-weight: 500;
+  font-style: italic; }
+@font-face {
+  font-family: "SqMarket";
+  src: url('../fonts/sqmarket/sqmarket-bold.eot');
+  src: url('../fonts/sqmarket/sqmarket-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/sqmarket/sqmarket-bold.otf') format('opentype'), url('../fonts/sqmarket/sqmarket-bold.woff') format('woff'), url('../fonts/sqmarket/sqmarket-bold.ttf') format('truetype'), url('../fonts/sqmarket/sqmarket-bold.svg') format('svg');
+  font-weight: 700; }
+@font-face {
+  font-family: "SqMarket";
+  src: url('../fonts/sqmarket/sqmarket-bolditalic.eot');
+  src: url('../fonts/sqmarket/sqmarket-bolditalic.eot?#iefix') format('embedded-opentype'), url('../fonts/sqmarket/sqmarket-bolditalic.otf') format('opentype'), url('../fonts/sqmarket/sqmarket-bolditalic.woff') format('woff'), url('../fonts/sqmarket/sqmarket-bolditalic.ttf') format('truetype'), url('../fonts/sqmarket/sqmarket-bolditalic.svg') format('svg');
+  font-weight: 700;
+  font-style: italic; }
+/* line 64, authentication/sprites/icon/*.png */
+.icon-sprite {
+  background-image: url('../images/authentication/sprites/icon-sc21d9f42eb.png');
+  background-repeat: no-repeat; }
+
+/* line 64, authentication/sprites/icon-hidpi/*.png */
+.icon-hidpi-sprite {
+  background-image: url('../images/authentication/sprites/icons-hidpi-s28805745ba.png');
+  background-repeat: no-repeat; }
+
+/* line 11, ../../app/unowned/stylesheets/authentication/bridgeport/components/_sprites.sass */
+i,
+.icon {
+  color: transparent;
+  display: inline-block; }
+
+/* line 19, ../../app/unowned/stylesheets/authentication/bridgeport/components/_sprites.sass */
+.icon-brand {
+  height: 32px;
+  width: 32px;
+  background-image: url('../images/authentication/sprites/icon-sc21d9f42eb.png');
+  background-position: 0 0;
+  background-repeat: no-repeat; }
+/* line 26, ../../app/unowned/stylesheets/authentication/core/mixins/_retina-sprites.scss */
+.icon-brand:hover {
+  background-position: 0 -34px; }
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5) {
+  /* line 42, ../../app/unowned/stylesheets/authentication/core/mixins/_retina-sprites.scss */
+  .icon-brand {
+    background-image: url('../images/authentication/sprites/icons-hidpi-s28805745ba.png');
+    background-position: 0 0;
+    -moz-background-size: 32px auto;
+    -o-background-size: 32px auto;
+    -webkit-background-size: 32px auto;
+    background-size: 32px auto;
+  }
+
+  /* line 53, ../../app/unowned/stylesheets/authentication/core/mixins/_retina-sprites.scss */
+  .icon-brand:hover {
+    background-position: 0 -33px;
+  }
+}
+
+/* line 22, ../../app/unowned/stylesheets/authentication/bridgeport/components/_sprites.sass */
+.icon-brand-light {
+  height: 31px;
+  width: 31px;
+  background-image: url('../images/authentication/sprites/icon-sc21d9f42eb.png');
+  background-position: 0 -68px;
+  background-repeat: no-repeat; }
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-device-pixel-ratio: 1.5) {
+  /* line 42, ../../app/unowned/stylesheets/authentication/core/mixins/_retina-sprites.scss */
+  .icon-brand-light {
+    background-image: url('../images/authentication/sprites/icons-hidpi-s28805745ba.png');
+    background-position: 0 -66px;
+    -moz-background-size: 32px auto;
+    -o-background-size: 32px auto;
+    -webkit-background-size: 32px auto;
+    background-size: 32px auto;
+  }
+}
+
+/* line 1, ../../app/unowned/stylesheets/authentication/core/components/_form-elements.sass */
+.btn, .input {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+/* line 6, ../../app/unowned/stylesheets/authentication/core/components/_form-elements.sass */
+.btn:focus, .input:focus {
+  outline: none; }
+
+/* line 1, ../../app/unowned/stylesheets/authentication/core/components/form-elements/_button.sass */
+.btn {
+  display: inline-block;
+  border: 0;
+  background: transparent;
+  -webkit-appearance: none; }
+
+/* line 4, ../../app/unowned/stylesheets/authentication/bridgeport/components/_form-elements.sass */
+.btn, .input {
+  height: 40px;
+  border: 1px solid #e0e2e3;
+  font-size: 14px; }
+
+/* line 14, ../../app/unowned/stylesheets/authentication/bridgeport/components/form-elements/_button.sass */
+.btn {
+  height: 32px;
+  padding: 0 14px 0;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #fafafa;
+  -moz-box-shadow: rgba(0, 0, 0, 0.04) 0 1px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.04) 0 1px 0;
+  box-shadow: rgba(0, 0, 0, 0.04) 0 1px 0;
+  color: #85898c;
+  line-height: 30px;
+  font-weight: 500;
+  text-align: center;
+  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out; }
+
+.grantscreen-btn {
+  min-height: 40px;
+  padding: 4px 20px 4px;
+}
+
+.left {
+  float: right;
+  padding: 4px 24px 4px;
+}
+
+.right {
+  float: right;
+  margin-left: 5%;
+  padding: 4px 24px 4px;
+}
+
+/* line 29, ../../app/unowned/stylesheets/authentication/bridgeport/components/form-elements/_button.sass */
+.btn:hover {
+  background-color: white;
+  -moz-box-shadow: rgba(0, 0, 0, 0.08) 0 1px 1px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.08) 0 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 1px 1px;
+  color: #85898c;
+  -moz-transition-duration: 0.05s;
+  -o-transition-duration: 0.05s;
+  -webkit-transition-duration: 0.05s;
+  transition-duration: 0.05s; }
+
+/* line 35, ../../app/unowned/stylesheets/authentication/bridgeport/components/form-elements/_button.sass */
+.btn:active,
+.btn.btn-is-active, .btn:active:hover,
+.btn.btn-is-active:hover {
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8; }
+
+/* line 39, ../../app/unowned/stylesheets/authentication/bridgeport/components/form-elements/_button.sass */
+.btn:disabled,
+.btn.btn-is-disabled, .btn:disabled:hover, .btn:disabled:active, .btn.btn-is-active:disabled,
+.btn.btn-is-disabled:hover,
+.btn.btn-is-disabled:active,
+.btn.btn-is-disabled.btn-is-active {
+  background-color: #fafafa;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+  cursor: default; }
+
+/* line 44, ../../app/unowned/stylesheets/authentication/bridgeport/components/form-elements/_button.sass */
+.btn-bottom {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0; }
+
+/* line 23, ../../app/unowned/stylesheets/authentication/bridgeport/components/form-elements/_input.sass */
+.input {
+  background-color: white;
+  color: inherit;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+/* line 2, ../../app/unowned/stylesheets/authentication/core/mixins/_input-placeholder.sass */
+.input:focus::-webkit-input-placeholder {
+  color: inherit;
+  -webkit-font-smoothing: antialiased; }
+/* line 4, ../../app/unowned/stylesheets/authentication/core/mixins/_input-placeholder.sass */
+.input::-webkit-input-placeholder {
+  color: inherit;
+  -webkit-font-smoothing: antialiased; }
+/* line 6, ../../app/unowned/stylesheets/authentication/core/mixins/_input-placeholder.sass */
+.input:-moz-placeholder {
+  color: inherit;
+  -webkit-font-smoothing: antialiased; }
+/* line 8, ../../app/unowned/stylesheets/authentication/core/mixins/_input-placeholder.sass */
+.input:-ms-input-placeholder {
+  color: inherit;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 32, ../../app/unowned/stylesheets/authentication/bridgeport/components/form-elements/_input.sass */
+.input:focus, .input-is-focused {
+  border-color: #2996cc; }
+
+/* line 35, ../../app/unowned/stylesheets/authentication/bridgeport/components/form-elements/_input.sass */
+.input:disabled {
+  cursor: default;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5; }
+
+/* line 39, ../../app/unowned/stylesheets/authentication/bridgeport/components/form-elements/_input.sass */
+.input-is-invalid {
+  border-color: #e52817;
+  background-color: #fef4f3; }
+/* line 2, ../../app/unowned/stylesheets/authentication/core/mixins/_input-placeholder.sass */
+.input-is-invalid:focus::-webkit-input-placeholder {
+  color: #e52817; }
+/* line 4, ../../app/unowned/stylesheets/authentication/core/mixins/_input-placeholder.sass */
+.input-is-invalid::-webkit-input-placeholder {
+  color: #e52817; }
+/* line 6, ../../app/unowned/stylesheets/authentication/core/mixins/_input-placeholder.sass */
+.input-is-invalid:-moz-placeholder {
+  color: #e52817; }
+/* line 8, ../../app/unowned/stylesheets/authentication/core/mixins/_input-placeholder.sass */
+.input-is-invalid:-ms-input-placeholder {
+  color: #e52817; }
+
+/* line 45, ../../app/unowned/stylesheets/authentication/bridgeport/components/form-elements/_input.sass */
+.input-is-invalid:focus {
+  background-color: white; }
+/* line 2, ../../app/unowned/stylesheets/authentication/core/mixins/_input-placeholder.sass */
+.input-is-invalid:focus::-webkit-input-placeholder {
+  color: #85898c; }
+/* line 4, ../../app/unowned/stylesheets/authentication/core/mixins/_input-placeholder.sass */
+.input-is-invalid:focus::-webkit-input-placeholder {
+  color: #85898c; }
+/* line 6, ../../app/unowned/stylesheets/authentication/core/mixins/_input-placeholder.sass */
+.input-is-invalid:-moz-placeholder:focus {
+  color: #85898c; }
+/* line 8, ../../app/unowned/stylesheets/authentication/core/mixins/_input-placeholder.sass */
+.input-is-invalid:-ms-input-placeholder:focus {
+  color: #85898c; }
+
+/* line 1, ../../app/unowned/stylesheets/authentication/bridgeport/components/form-elements/button/_button-colors.sass */
+.btn-gray, .btn-blue {
+  -moz-box-shadow: rgba(0, 0, 0, 0.08) 0 1px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.08) 0 1px 0;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 1px 0; }
+/* line 3, ../../app/unowned/stylesheets/authentication/bridgeport/components/form-elements/button/_button-colors.sass */
+.btn-gray:hover, .btn-blue:hover {
+  -moz-box-shadow: rgba(0, 0, 0, 0.16) 0 1px 1px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 1px; }
+
+/* line 6, ../../app/unowned/stylesheets/authentication/bridgeport/components/form-elements/button/_button-colors.sass */
+.btn-blue-link {
+  color: #2996cc;
+}
+.btn-red, .btn-red.btn:hover {
+  color: #b7012a;
+  border-color: #b7012a;
+}
+.btn-blue-link-border, .btn-blue-link-border.btn:hover {
+  color: #2996cc;
+  border-color: #2996cc;
+}
+
+.btn-blue-link.btn:hover {
+  color: #2996cc;
+}
+.btn-gray {
+  border-color: #3c4753;
+  background-color: #85898c;
+  color: white;
+}
+.btn-gray.btn:hover {
+  background-color: #c2c7cc;
+}
+.btn-gray.btn:active,
+.btn-gray.btn.btn-is-active {
+  background-color: #85898c;
+}
+.btn-gray.btn:disabled,
+.btn-gray.btn.btn-is-disabled {
+  background-color: #85898c;
+  color: white;
+}
+.btn-blue {
+  border-color: transparent;
+  background-color: #2996cc;
+  color: white;
+}
+.btn-blue.btn:hover {
+  background-color: #3ba8de;
+  color: white;
+}
+.btn-blue.btn:active,
+.btn-blue.btn.btn-is-active {
+  background-color: #2996cc;
+}
+.btn-blue.btn:disabled,
+.btn-blue.btn.btn-is-disabled {
+  background-color: #2996cc;
+  color: white;
+}
+
+.btn-blue.inverse {
+  border-color: #2996cc;
+  color: #2996cc;
+  background-color: transparent;
+}
+
+.btn-blue.btn.inverse:hover {
+  border-color: #3ba8de;
+  color: #3ba8de;
+  background-color: transparent; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-ms-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-o-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.ie .fade-in {
+  opacity: 1; }
+
+.fade-in,
+.ie10 .fade-in {
+  opacity: 0;
+  -webkit-animation: fadeIn;
+  -moz-animation: fadeIn;
+  animation: fadeIn;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 250ms;
+  -moz-animation-delay: 250ms;
+  animation-delay: 250ms;
+}
+
+.navbar-primary {
+  height: 72px;
+  background-color: #2b333b;
+}
+.navbar-branding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #2996cc;
+  font-family: "SqMarket", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+a.arrow {
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  outline: 0;
+}
+a.arrow:after {
+  display: inline-block;
+  -moz-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  content: ">";
+  position: relative;
+  top: -1px;
+  margin-left: 3px;
+}
+
+#content {
+  width: 100%; }
+@media (min-width: 568px) {
+  #content {
+    width: 465px; }
+}
+
+#content-grantscreen {
+  width: 100%; }
+@media (min-width: 568px) {
+  #content-grantscreen {
+    width: 620px; } }
+
+@media (min-width: 568px) {
+  .navbar-primary {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; }
+
+  .l-table {
+    display: table;
+    vertical-align: middle;
+    height: 100%;
+    margin: auto; }
+
+  body.buyer-portal .l-table {
+    height: auto;
+  }
+
+  .l-table-row {
+    display: table-row; }
+
+  .l-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 72px; }
+}
+.language-selector {
+  position: relative;
+  font-family: "SqMarket", Helvetica, Arial, sans-serif;
+  display: block;
+  margin-top: 16px; }
+
+/* line 171, ../../app/unowned/stylesheets/login.sass */
+.language-prompt {
+  width: 276px;
+  position: absolute;
+  z-index: 3;
+  bottom: 32px;
+  left: 50%;
+  margin-left: -138px;
+  opacity: 0;
+  display: none;
+  pointer-events: none;
+  padding: 15px;
+  color: #5f6a7d;
+  background-color: #fafafa;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -moz-transform: translateY(6px);
+  -ms-transform: translateY(6px);
+  -webkit-transform: translateY(6px);
+  transform: translateY(6px);
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  border-radius: 5px; }
+/* line 172, ../../app/unowned/stylesheets/login.sass */
+.login-page .language-prompt {
+  background: #85898c;
+  color: #fafafa; }
+/* line 177, ../../app/unowned/stylesheets/login.sass */
+.login-page .language-prompt ul li:hover {
+  background: #787c7f; }
+/* line 198, ../../app/unowned/stylesheets/login.sass */
+.language-prompt.active {
+  opacity: 1;
+  display: block;
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  pointer-events: auto;
+  z-index: 10; }
+/* line 203, ../../app/unowned/stylesheets/login.sass */
+.language-prompt ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left; }
+/* line 208, ../../app/unowned/stylesheets/login.sass */
+.language-prompt ul li {
+  padding: 5px;
+  line-height: 17px; }
+/* line 211, ../../app/unowned/stylesheets/login.sass */
+.language-prompt ul li:hover {
+  background-color: #ededed;
+  cursor: pointer; }
+
+/* line 230, ../../app/unowned/stylesheets/login.sass */
+html {
+  background: #fafafa;
+}
+
+/* line 233, ../../app/unowned/stylesheets/login.sass */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 569px) {
+  /* line 238, ../../app/unowned/stylesheets/login.sass */
+  nav.viewport {
+    position: static; }
+}
+
+/* line 242, ../../app/unowned/stylesheets/login.sass */
+.menu-list {
+  text-align: center;
+  padding: 0px 0px;
+  margin: 0px 0px; }
+/* line 244, ../../app/unowned/stylesheets/login.sass */
+.menu-list > li,
+.menu-list > .menu-item {
+  display: inline-block;
+  padding: 0px 10px; }
+
+@media screen and (max-width: 569px) {
+  /* line 248, ../../app/unowned/stylesheets/login.sass */
+  .button {
+    width: 100%; }
+}
+
+/* line 252, ../../app/unowned/stylesheets/login.sass */
+.logotype {
+  width: 136px;
+  height: 33px;
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  text-transform: capitalize;
+  background-image: url('../images/authentication/logo.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  display: block;
+  margin-bottom: 20px;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 252, ../../app/unowned/stylesheets/login.sass */
+  .logotype {
+    background-image: url('../images/authentication/logo@2x.png');
+    background-size: 100%;
+    margin-bottom: 25px; }
+}
+@media screen and (min-width: 570px) {
+  /* line 252, ../../app/unowned/stylesheets/login.sass */
+  .logotype {
+    margin-bottom: 25px; }
+}
+
+.login-modal, .grantscreen-modal {
+  font-family: "SqMarket", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: #3d454d;
+  background-color: #FDFEFE;
+  margin: 0 auto; }
+.login-modal h1 {
+  font-size: 24px;
+  line-height: 1.4em;
+  margin-bottom: 27px;
+  margin-top: -9px;
+  text-align: center; }
+.login-modal h2 {
+  margin: 0 0 10px; }
+.login-modal p {
+  margin: 0 0 14px; }
+.login-modal .spinner {
+  margin: 0 auto; }
+.login-modal .field-error {
+  z-index: 2; }
+.login-modal .field-error.email-field input.text {
+  border-bottom-color: #f5a7a0; }
+.login-modal .field-error input.text {
+  border-color: #e52817;
+  color: #e52817; }
+.login-modal .field-error label.text {
+  background-color: #FEF4F3;
+  color: #e52817; }
+.login-modal .field-error input:focus {
+  color: #454a4e; }
+.login-page .login-modal .password-field {
+  margin-top: 14px; }
+.login-modal input:disabled {
+  background-color: #f9f9f9;
+  opacity: 0.7; }
+@media screen and (min-width: 570px) {
+  .login-modal {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #e0e2e3; }
+  .login-modal.shake {
+    animation: shake 0.6s; }
+  .login-page .login-modal {
+    -moz-transition: height 0.1s;
+    -o-transition: height 0.1s;
+    -webkit-transition: height 0.1s;
+    transition: height 0.1s; }
+  .login-modal.reset-link-sent-visible, .password-reset-instructions-sent .login-modal {
+    text-align: center; }
+  .login-modal.reset-link-sent-visible h2, .password-reset-instructions-sent .login-modal h2 {
+    font-size: 21px; }
+}
+
+.grantscreen-modal {
+  padding-bottom: 16px;
+  padding-top: 26px; }
+/* line 315, ../../app/unowned/stylesheets/login.sass */
+.login-modal-signin-text,
+.login-modal-password-text,
+.login-modal-instructions-sent-text {
+  display: none; }
+
+/* line 322, ../../app/unowned/stylesheets/login.sass */
+.login-modal-content:after,
+.login-modal-content form:after {
+  content: " ";
+  clear: both;
+  display: block; }
+
+/* line 327, ../../app/unowned/stylesheets/login.sass */
+.underlined-link {
+  text-decoration: underline; }
+
+input.text {
+  border: 1px solid #e0e2e3;
+  height: 38px;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+input.text[name="email"],
+input.text[name="user[password]"] {
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px;
+  border-radius: 3px 3px 0 0; }
+input.text[name="password"],
+input.text[name="login-verification-code"],
+input.text[name="user[password_confirmation]"] {
+  -moz-border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 3px 3px;
+}
+.login-page .login-modal .password-field,
+.login-page .login-modal .confirm-password-field,
+.password .login-modal .password-field,
+.password .login-modal .confirm-password-field {
+  margin-top: -1px;
+}
+
+input.text:focus {
+  border-color: #2996cc;
+  z-index: 2;
+}
+
+/* line 354, ../../app/unowned/stylesheets/login.sass */
+.login-modal-footer {
+  text-align: center;
+  margin: 24px;
+  color: #85898c;
+  line-height: 1.3; }
+
+.login-legal-wrapper a {
+  font-weight: 500; }
+
+.login-legal-wrapper a:not(:first-child) {
+  margin-left: 24px; }
+
+/* line 360, ../../app/unowned/stylesheets/login.sass */
+.logo-watermark {
+  margin: 45px auto;
+  text-align: center;
+  color: #f2f4f5; }
+
+/* line 366, ../../app/unowned/stylesheets/login.sass */
+.forgot-password-page-form .primary-button {
+  min-width: 167px; }
+
+/* line 369, ../../app/unowned/stylesheets/login.sass */
+.login-modal h2 {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #2D3C48; }
+
+/* line 375, ../../app/unowned/stylesheets/login.sass */
+.secondary-footer-link {
+  font-size: 13px;
+  line-height: 18px;
+  color: #676E75; }
+
+/* line 381, ../../app/unowned/stylesheets/login.sass */
+.flash-message {
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF;
+  border: 0px;
+  text-align: center;
+  z-index: 100;
+  border-radius: 3px; }
+
+.flash-message.flash-message-top {
+  padding: 12px; }
+
+/* line 387, ../../app/unowned/stylesheets/login.sass */
+.flash-message.message-box-success {
+  background: #4ab300; }
+
+.flash-message.flash-message-failure {
+  background: #E52817; }
+
+/* line 390, ../../app/unowned/stylesheets/login.sass */
+.domain-suggestion {
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 24px; }
+/* line 394, ../../app/unowned/stylesheets/login.sass */
+.signin-form .domain-suggestion {
+  white-space: nowrap; }
+/* line 396, ../../app/unowned/stylesheets/login.sass */
+.domain-suggestion .domain-suggestion-address {
+  color: #3d454d;
+  font-weight: 400; }
+/* line 399, ../../app/unowned/stylesheets/login.sass */
+.domain-suggestion .domain-suggestion-address .domain {
+  color: #4ab300;
+  background: #EDF7E5; }
+
+/* line 403, ../../app/unowned/stylesheets/login.sass */
+.security-question, .identity-question {
+  color: #2996cc;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 500; }
+
+/* line 410, ../../app/unowned/stylesheets/login.sass */
+.security-question-answer {
+  margin-bottom: 24px; }
+
+/* line 413, ../../app/unowned/stylesheets/login.sass */
+.dob-year, .dob-month, .dob-day, .ssn, .ssn-disabled {
+  width: 18%;
+  display: inline-block; }
+/* line 416, ../../app/unowned/stylesheets/login.sass */
+.dob-year *, .dob-month *, .dob-day *, .ssn *, .ssn-disabled * {
+  display: inline-block; }
+
+/* line 420, ../../app/unowned/stylesheets/login.sass */
+.ssn-disabled input {
+  background-color: lightgray; }
+
+/* line 423, ../../app/unowned/stylesheets/login.sass */
+.ssn-question {
+  margin-bottom: 30px; }
+
+/* line 426, ../../app/unowned/stylesheets/login.sass */
+.inline-description {
+  width: 30%;
+  display: inline-block; }
+
+/* line 430, ../../app/unowned/stylesheets/login.sass */
+.input-separator {
+  width: 3%;
+  display: inline-block;
+  padding: 7px 0px;
+  text-align: center; }
+
+/* line 436, ../../app/unowned/stylesheets/login.sass */
+.dob-question, .ssn-question {
+  display: block; }
+/* line 438, ../../app/unowned/stylesheets/login.sass */
+.dob-question *, .ssn-question * {
+  margin: 0px;
+  padding: 0px; }
+
+/* line 442, ../../app/unowned/stylesheets/login.sass */
+.sent-glyph {
+  display: block;
+  margin: 0 auto 10px;
+  background: url('../images/authentication/sent-glyph.png') no-repeat;
+  width: 52px;
+  height: 50px; }
+@media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
+  /* line 442, ../../app/unowned/stylesheets/login.sass */
+  .sent-glyph {
+    background-image: url('../images/authentication/sent-glyph@2x.png');
+    background-size: 100%; }
+}
+
+/* line 448, ../../app/unowned/stylesheets/login.sass */
+.login-modal .email-field {
+  z-index: 1;
+  position: relative;
+  margin-bottom: 0; }
+/* line 453, ../../app/unowned/stylesheets/login.sass */
+.login-modal .email-field.email-field-suggested input {
+  color: #E48900;
+  border-color: #E48900; }
+/* line 456, ../../app/unowned/stylesheets/login.sass */
+.login-modal .email-field.email-field-suggested input:focus {
+  border-color: #E48900; }
+
+/* line 459, ../../app/unowned/stylesheets/login.sass */
+.reset-link-email {
+  color: #4ab300; }
+
+/* line 462, ../../app/unowned/stylesheets/login.sass */
+.message-box-error-wrapper {
+  clear: both;
+  position: absolute;
+  z-index: -1;
+  margin-top: -33px;
+  opacity: 0;
+  -moz-transition: opacity 0.1s, margin 0.1s;
+  -o-transition: opacity 0.1s, margin 0.1s;
+  -webkit-transition: opacity 0.1s, margin 0.1s;
+  transition: opacity 0.1s, margin 0.1s;
+  background: #fff;
+  color: #85898c;
+  border: 1px solid #e0e2e3;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0px 0px 5px #e0e2e3;
+  -webkit-box-shadow: 0px 0px 5px #e0e2e3;
+  box-shadow: 0px 0px 5px #e0e2e3; }
+/* line 474, ../../app/unowned/stylesheets/login.sass */
+.message-box-error-wrapper.visible {
+  z-index: 2;
+  opacity: 1;
+  margin-top: -43px; }
+/* line 478, ../../app/unowned/stylesheets/login.sass */
+.message-box-error-wrapper.visible:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  border-top: 12px solid #e0e2e3;
+  border-right: 9px solid transparent;
+  border-left: 9px solid transparent;
+  top: 100%;
+  left: 11px;
+  width: 0;
+  height: 0; }
+/* line 489, ../../app/unowned/stylesheets/login.sass */
+.message-box-error-wrapper.visible:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  border-top: 10px solid #fff;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  top: 100%;
+  left: 12px;
+  margin-top: -1px;
+  width: 0;
+  height: 0; }
+
+/* line 502, ../../app/unowned/stylesheets/login.sass */
+.message-box-error {
+  background: none;
+  border: none;
+  color: #85898c;
+  padding: 12px 56px 12px 12px;
+  margin: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none; }
+/* line 511, ../../app/unowned/stylesheets/login.sass */
+.message-box-error:after {
+  height: 21px;
+  width: 23px;
+  background-position: 0 -61px;
+  top: 9px;
+  right: 12px; }
+
+/* line 518, ../../app/unowned/stylesheets/login.sass */
+.domain-suggestion {
+  line-height: 1; }
+
+/* line 521, ../../app/unowned/stylesheets/login.sass */
+.signin-page-form,
+.forgot-password,
+.secondary-footer-link,
+.reset-link-sent,
+.logotype {
+  opacity: 1; }
+/* line 527, ../../app/unowned/stylesheets/login.sass */
+.signin-page-form.hide,
+.forgot-password.hide,
+.secondary-footer-link.hide,
+.reset-link-sent.hide,
+.logotype.hide {
+  opacity: 0; }
+
+/* line 530, ../../app/unowned/stylesheets/login.sass */
+.signin-page-form,
+.forgot-password,
+.reset-link-sent,
+.logotype {
+  -moz-transition: opacity 0.1s;
+  -o-transition: opacity 0.1s;
+  -webkit-transition: opacity 0.1s;
+  transition: opacity 0.1s; }
+
+.signin-page-form:not(.passwordless) #send-verification-code-button {
+  display: none;
+}
+
+.signin-page-form.passwordless:not(.with-verification-code) input.text[name="email"] {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.signin-page-form.passwordless:not(.with-verification-code) .password-field,
+.signin-page-form.passwordless:not(.with-verification-code) #sign-in-button{
+  display: none;
+}
+
+.signin-page-form.passwordless.with-verification-code #send-verification-code-button {
+  display: none;
+}
+
+/* line 536, ../../app/unowned/stylesheets/login.sass */
+.login-language-selector-wrapper {
+  margin: 16px auto 0;
+  text-align: center;
+  box-shadow: 0 0 5px #D4DADE; }
+
+@-moz-keyframes shake {
+  0%, 100% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  10%, 30% {
+    -moz-transform: translateX(-8px);
+    -ms-transform: translateX(-8px);
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px); }
+  50%, 70% {
+    -moz-transform: translateX(-4px);
+    -ms-transform: translateX(-4px);
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px); }
+  90% {
+    -moz-transform: translateX(-2px);
+    -ms-transform: translateX(-2px);
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px); }
+  20%, 40% {
+    -moz-transform: translateX(8px);
+    -ms-transform: translateX(8px);
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px); }
+  60%, 80% {
+    -moz-transform: translateX(4px);
+    -ms-transform: translateX(4px);
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px); } }
+@-webkit-keyframes shake {
+  0%, 100% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  10%, 30% {
+    -moz-transform: translateX(-8px);
+    -ms-transform: translateX(-8px);
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px); }
+  50%, 70% {
+    -moz-transform: translateX(-4px);
+    -ms-transform: translateX(-4px);
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px); }
+  90% {
+    -moz-transform: translateX(-2px);
+    -ms-transform: translateX(-2px);
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px); }
+  20%, 40% {
+    -moz-transform: translateX(8px);
+    -ms-transform: translateX(8px);
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px); }
+  60%, 80% {
+    -moz-transform: translateX(4px);
+    -ms-transform: translateX(4px);
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px); } }
+@-o-keyframes shake {
+  0%, 100% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  10%, 30% {
+    -moz-transform: translateX(-8px);
+    -ms-transform: translateX(-8px);
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px); }
+  50%, 70% {
+    -moz-transform: translateX(-4px);
+    -ms-transform: translateX(-4px);
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px); }
+  90% {
+    -moz-transform: translateX(-2px);
+    -ms-transform: translateX(-2px);
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px); }
+  20%, 40% {
+    -moz-transform: translateX(8px);
+    -ms-transform: translateX(8px);
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px); }
+  60%, 80% {
+    -moz-transform: translateX(4px);
+    -ms-transform: translateX(4px);
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px); } }
+@-ms-keyframes shake {
+  0%, 100% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  10%, 30% {
+    -moz-transform: translateX(-8px);
+    -ms-transform: translateX(-8px);
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px); }
+  50%, 70% {
+    -moz-transform: translateX(-4px);
+    -ms-transform: translateX(-4px);
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px); }
+  90% {
+    -moz-transform: translateX(-2px);
+    -ms-transform: translateX(-2px);
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px); }
+  20%, 40% {
+    -moz-transform: translateX(8px);
+    -ms-transform: translateX(8px);
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px); }
+  60%, 80% {
+    -moz-transform: translateX(4px);
+    -ms-transform: translateX(4px);
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px); } }
+@keyframes shake {
+  0%, 100% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  10%, 30% {
+    -moz-transform: translateX(-8px);
+    -ms-transform: translateX(-8px);
+    -webkit-transform: translateX(-8px);
+    transform: translateX(-8px); }
+  50%, 70% {
+    -moz-transform: translateX(-4px);
+    -ms-transform: translateX(-4px);
+    -webkit-transform: translateX(-4px);
+    transform: translateX(-4px); }
+  90% {
+    -moz-transform: translateX(-2px);
+    -ms-transform: translateX(-2px);
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px); }
+  20%, 40% {
+    -moz-transform: translateX(8px);
+    -ms-transform: translateX(8px);
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px); }
+  60%, 80% {
+    -moz-transform: translateX(4px);
+    -ms-transform: translateX(4px);
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px); } }
+/* line 560, ../../app/unowned/stylesheets/login.sass */
+.login-modal-title {
+  font: 400 24px/1 "Square Market", "helvetica neue", helvetica, arial, sans-serif;
+  text-align: center;
+  color: #3d454d; }
+
+.grantscreen-modal-title {
+  font: 550 20px/1 "Square Market", "helvetica neue", helvetica, arial, sans-serif;
+  text-align: left;
+  margin-bottom: 13px;
+  color: #3d454d; }
+
+hr { display: block; height: 1px;
+  border: 0; border-bottom: 1px solid #808080;
+  margin: 1em 0; padding: 0; }
+
+/* line 565, ../../app/unowned/stylesheets/login.sass */
+.secondary-footer-link {
+  line-height: 32px;
+  position: absolute;
+  bottom: 25px; }
+
+/* line 571, ../../app/unowned/stylesheets/login.sass */
+.login-modal-content {
+  position: relative;
+  -moz-transition: height 0.1s;
+  -o-transition: height 0.1s;
+  -webkit-transition: height 0.1s;
+  transition: height 0.1s; }
+
+.grantscreen-modal-content {
+  position: relative;
+  -moz-transition: height 0.1s;
+  -o-transition: height 0.1s;
+  -webkit-transition: height 0.1s;
+  transition: height 0.1s;
+  padding: 40px;
+  border-bottom: 1px solid #d5d5d5;
+  box-shadow:
+      inset 0px 7px 3px -5px #d5d5d5; }
+
+.login-modal {
+  padding: 40px; }
+
+/* line 578, ../../app/unowned/stylesheets/login.sass */
+.login-forgot-password-wrapper, .login-resend-verification-code-link, .select-arrow, .field.select-field::after {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 10; }
+
+/* line 587, ../../app/unowned/stylesheets/login.sass */
+.forgot-password-link a {
+  color: #58595b;
+  font: normal 14px/1 "Square Market", "helvetica neue", helvetica, arial, sans-serif;
+  text-decoration: underline; }
+/* line 591, ../../app/unowned/stylesheets/login.sass */
+.forgot-password-link a:hover {
+  color: #3d454d; }
+
+/* line 597, ../../app/unowned/stylesheets/login.sass */
+.footer {
+  margin: 0 auto;
+  margin-top: 24px;
+  text-align: center;
+  color: #58595b; }
+
+.grantscreen-modal-footer {
+  margin: 0 auto;
+  margin-top: 16px;
+  text-align: center;
+  color: #58595b;
+  padding-left: 40px;
+  padding-right: 40px }
+
+.grantscreen-modal-footer-left {
+  width: 50%;
+  float: left }
+
+.grantscreen-modal-footer-right {
+  width: 50%;
+  float: right }
+
+.submit-button {
+  margin-top: 12px; }
+  .submit-button button {
+    line-height: 15px;
+    height: auto;
+    padding: 12px 16px;
+    width: 100%;
+    min-width: 80px; }
+
+/* line 611, ../../app/unowned/stylesheets/login.sass */
+.full-length-submit-button {
+  display: block;
+  width: 100%; }
+
+/* line 615, ../../app/unowned/stylesheets/login.sass */
+.signup-today {
+  white-space: nowrap;
+  font-weight: 500; }
+
+/* line 619, ../../app/unowned/stylesheets/login.sass */
+.field {
+  margin: 0;
+  height: 41px;
+  position: relative; }
+/* line 624, ../../app/unowned/stylesheets/login.sass */
+.field.fade-label label.text {
+  color: #c2c7cc;
+  font-size: 14px;
+  line-height: 15px;
+  height: 41px;
+  padding: 13px 10px; }
+/* line 630, ../../app/unowned/stylesheets/login.sass */
+.field.fade-label label.text span {
+  padding: 0; }
+/* line 632, ../../app/unowned/stylesheets/login.sass */
+.field.select-field::after {
+  content: "▾";
+  pointer-events: none; }
+/* line 637, ../../app/unowned/stylesheets/login.sass */
+.field input {
+  height: 41px;
+  width: 100%; }
+/* line 640, ../../app/unowned/stylesheets/login.sass */
+.field select {
+  height: 41px;
+  width: 100%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 10px;
+  -moz-outline: none;
+  outline: none; }
+/* line 649, ../../app/unowned/stylesheets/login.sass */
+.field select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #3d454d; }
+.field.field-combined-top input {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.field.field-combined-bottom input {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+/* line 653, ../../app/unowned/stylesheets/login.sass */
+.login-modal-logo {
+  fill: #c2c7cc;
+  margin: 0 auto 36px;
+  width: 44px;
+  height: 44px; }
+
+.grantscreen-modal-logo {
+  fill: #161719;
+  margin: 0 auto 26px;
+  width: 30px;
+  height: 30px; }
+
+/* line 659, ../../app/unowned/stylesheets/login.sass */
+.login-modal-primary-text {
+  font-weight: 500; }
+
+.login-modal-requesting-title {
+  font-weight: 500;
+  padding-bottom: 10px;}
+
+.login-modal-text {
+  font-size: 13px;
+  text-align: center;
+  background-color: transparent;
+  margin-bottom: 16px;
+  margin-top: 16px; }
+
+.login-modal-secondary-icon {
+  float:left; }
+
+.login-modal-secondary-icon img {
+  vertical-align: text-bottom; }
+
+.login-modal-secondary-text-with-icon {
+  text-align: left;
+  padding-left: 24px; }
+
+.login-modal-text-small-margin-bottom {
+  margin-bottom: 18px; }
+
+.login-modal-content form.enroll-two-factor-form {
+  margin-top: 0px; }
+
+.login-modal-text-no-margin-bottom {
+  margin-bottom: 0px; }
+
+.input-submit {
+  width: 100%; }
+.input-submit .submit-button {
+  float: right;
+  margin-top: 0;
+  margin-left: 8px;
+  display: inline-block;
+  width: auto; }
+.input-submit .field {
+  width: auto;
+  overflow: hidden;
+  float: none; }
+
+.checkbox label {
+  font-family: "SqMarket", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400; }
+
+.checkbox input {
+  margin-right: 8px; }
+
+.trusted-device-checkbox {
+  margin-top: 8px; }
+
+.grantscreen-checkbox {
+  margin-left: 8px;
+  margin-right: 8px }
+
+.grantscreen-checkbox-subtext {
+  margin-left: 49px;
+  margin-top: 5px;
+  font-family: "SqMarket", Helvetica, Arial, sans-serif;
+  color: gray;}
+
+/* line 694, ../../app/unowned/stylesheets/login.sass */
+.login-modal-hint {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  background-color: #f9f9f9;
+  color: #85898c;
+  text-align: center; }
+
+/* line 704, ../../app/unowned/stylesheets/login.sass */
+.login-hint .login-modal-logo {
+  margin-bottom: 24px; }
+/* line 706, ../../app/unowned/stylesheets/login.sass */
+.login-hint .signin-page-form {
+  margin-top: 12px; }
+
+
+@media (max-width: 567px) {
+  .input-submit {
+    position: relative;
+  }
+  .input-submit .submit-button {
+    float: none;
+    width: 100%;
+    margin-left: 0px;
+    top: 45px;
+    position: relative;
+  }
+  .input-submit .field {
+    top: -45px;
+    position: relative;
+  }
+}
+
+#select-phone-number-row {
+  margin-top: 8px;
+}
+
+#verification-code-row {
+  margin-top: 8px;
+}
+
+.selector-button {
+  margin-top: 12px;
+}
+
+.selector-button button {
+  line-height: 15px;
+  height: auto;
+  padding: 12px 15px;
+}
+
+.enroll-two-factor-authenticator-key {
+  font: 400 24px/1 Menlo, Monaco, Consolas, monospace;
+  background-color: #32373c;
+  color: white;
+  padding: 30px 0;
+}
+
+.enroll-two-factor-authenticator-key-word {
+  padding-right: 10px;
+}
+
+.enroll-two-factor-authenticator-key-word:last-child {
+  padding-right: 0;
+}
+
+.enroll-two-factor-sms-button {
+  width: 48%;
+  float: left;
+}
+
+.enroll-two-factor-authenticator-button {
+  width: 48%;
+  float: right;
+}
+
+.enroll-link {
+  padding: 0 15px;
+  display: inline-block;
+}
+
+.enroll-complete-icon {
+  stroke: #4eb11e;
+  margin: 0 auto 24px;
+  width: 80px;
+  height: 80px;
+}
+
+div#captcha > div {
+  margin: auto;
+}
+
+.single-line-form-field {
+  float: left;
+  width: 275px;
+}
+
+.single-line-form-button {
+  float: right;
+  width: 100px;
+  margin-top: -12px;
+  margin-bottom: 16px;
+}
+
+/* CAPITAL_CONSUMER login */
+body.capital .login-modal {
+  padding: 36px
+}
+
+body.capital .login-modal-logo {
+  margin: 0 auto 32px;
+}
+
+body.capital h1 {
+  font-family: "SqMarket", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+
+body.capital login-modal-hint {
+  font-size: 16px;
+  padding-top: 0;
+  padding-bottom: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  color: #70767c;
+  text-align: center;
+}
+
+body.capital .field-error.email-field input.text {
+  border-bottom-color: #e52817;
+}
+
+body.capital .login-modal-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #70767c;
+  margin-top: 0;
+}
+
+body.capital span#email-address {
+  font-weight: 500;
+}
+
+body.capital .check-email-secondary-text {
+  font-weight: 500;
+  margin-top: 23px;
+}
+
+body.capital .footer {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+/* LOYALTY login */
+.login-merchant {
+  display: block;
+  font-family: "SqMarket", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: #aeb1b5;
+  letter-spacing: 1px;
+  margin-top: -26px;
+  margin-bottom: 16px;
+}
+
+/* BUYER_PORTAL login */
+body.buyer-portal {
+  background-color: #ebedef;
+}
+
+body.buyer-portal input.text,
+body.buyer-portal .btn {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
+body.buyer-portal input,
+body.buyer-portal .btn {
+  font-size: 16px;
+}
+
+body.buyer-portal .l-table-cell {
+  vertical-align: top;
+  padding-top: 0;
+}
+
+body.buyer-portal .hero-wrapper {
+  left: 0;
+  right: 0;
+  padding: 32px 0 48px 0;
+  margin: 0 0 -48px 0;
+  background-color: #2996cc;
+}
+
+body.buyer-portal .hero-content {
+  width: 512px;
+  padding: 40px 16px;
+  margin: 0 auto;
+}
+
+body.buyer-portal .hero-content h1 {
+  font-family: "SqMarket", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+}
+
+body.buyer-portal .login-modal {
+  background-color: white;
+  border-radius: 6px;
+  border: 0;
+  width: 512px;
+  padding: 56px;
+  margin: 0 16px;
+}
+
+body.buyer-portal .login-modal-logo {
+  position: absolute;
+  fill: white;
+  top: 16px;
+  width: 24px;
+  height: 24px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+body.buyer-portal .login-modal h1 {
+  font-size: 24px;
+  line-height: 36px;
+  color: #343b42;
+  margin-bottom: 0;
+}
+
+body.buyer-portal .login-modal-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #71767b;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+body.buyer-portal button,
+body.buyer-portal .field,
+body.buyer-portal input {
+  min-height: 56px;
+}
+
+body.buyer-portal .field.fade-label label.text {
+  height: 56px;
+  padding: 20px 10px;
+}
+
+body.buyer-portal .submit-button {
+  margin-top: 16px;
+}
+
+body.buyer-portal .footer {
+  margin-top: 16px;
+}
+
+@media (max-width: 544px) {
+  body.buyer-portal .hero-content {
+    width: auto;
+    min-width: 288px;
+    margin: 0 auto;
+  }
+
+  body.buyer-portal .login-modal {
+    width: auto;
+    min-width: 288px;
+    padding: 24px;
+  }
+}
+
+/* To generate a custom checkbox*/
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 28px;
+  cursor: not-allowed;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 16px;
+  line-height: 16px;
+  margin-left: 21px;
+  margin-top: 20px;
+}
+
+/* In order to hide the browser's default checkbox */
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: not-allowed;
+  height: 0;
+  width: 0;
+}
+
+/* Custom checkbox for openid grant page*/
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+/* When the checkbox is checked, add a gray background */
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #aeb1b5;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+  cursor: not-allowed;
+}
+
+/* Checked box on openid permissions page */
+.checkbox-container .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+.weebly-inner-content {
+  width: 700px;
+  margin: 0 auto; }
+
+@media (max-width: 800px) {
+  .weebly-inner-content {
+    width: auto;
+  }
+}
+
+#weebly-content {
+  width: 100%; }
+
+.weebly-modal-content {
+  position: relative;
+  -moz-transition: height 0.1s;
+  -o-transition: height 0.1s;
+  -webkit-transition: height 0.1s;
+  transition: height 0.1s;
+  padding: 40px;
+  box-shadow:
+      inset 0px 8px 3px -5px #d5d5d5; }
+
+.weebly-modal {
+  padding: 18px 0px 0px 0px; }
+.weebly-modal.shake {
+  animation: shake 0.4s; }
+
+.weebly-modal .field-error {
+  z-index: 2; }
+.weebly-modal .field-error input.text {
+  border-color: #e52817;
+  color: #e52817; }
+.weebly-modal .field-error label.text {
+  background-color: #FEF4F3;
+  color: #e52817; }
+.weebly-modal .field-error input:focus {
+  color: #454a4e; }
+
+.weebly-field {
+  margin: 1.5% 0 4% 0;
+  border: grey; }
+
+.weebly-login-title {
+  font: 550 24px/1 "Square Market", "helvetica neue", helvetica, arial, sans-serif;
+  text-align: center;
+  color: #08080a;
+  padding: 26px 0 26px 0; }
+
+.weebly-login-subtext {
+  margin: 0 auto;
+  text-align: center;
+  /*font-family: "SqMarket", Helvetica, Arial, sans-serif;*/
+  font: 400 16px/1 "SqMarket", Helvetica, Arial, sans-serif;
+  color: gray;
+  padding: 0px 0 46px 0;}
+
+@media (max-height: 500px) {
+  .weebly-login-title, .weebly-login-subtext {
+    padding: 0 0 26px 0;
+  }
+}
+
+.weebly-field-text {
+  font: 500 14px/1 "Square Market", "helvetica neue", helvetica, arial, sans-serif;
+  color: #08080a; }
+
+.weebly-modal-logo {
+  fill: #161719;
+  margin: 0 auto 18px;
+  width: 44px;
+  height: 44px; }
+
+.weebly-modal-footer {
+  margin: 0 auto;
+  text-align: center;
+  color: #58595b;
+  padding: 10px 0 40px 0;
+  height: 92px;
+  border-bottom: 1px solid #e3e3e3; }
+
+.weebly-modal-footer-left {
+  width: 50%;
+  height: 100%;
+  float: left; }
+
+.weebly-modal-footer-right {
+  width: 50%;
+  float: right;
+  height: 100%; }
+
+.weebly-forgot-password-wrapper {
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: left; }
+
+.weebly-password {
+  border-radius: 3px;
+  border-color: grey; }
+
+.weebly-modal-language-footer {
+  text-align: center;
+  margin-top: -24px;
+  color: #85898c;
+  line-height: 1.3; }
+
+.weebly-btn {
+  height: 40px;
+  border-radius: 5px; }
+
+.btn.btn-blue.weebly-btn:hover {
+  background-color: #1269b5 ; }
+
+.weebly-modal.hide {
+  opacity: 0; }
+
+.weebly-compromised-common-password-modal, .weebly-account-lockout-modal {
+  margin: 0 auto;
+  width: 350px; }
+
+.weebly-compromised-common-password-modal.hide, .weebly-account-lockout-modal.hide {
+  opacity: 0; }
+
+.weebly-button-text {
+  font-weight: bold; }
+
+.weebly-background-color {
+  background-color: #3374FF; }
+
+.weebly-font {
+  color: #3374FF;
+  font-size: 15px; }
+
+input[name=weebly-email]:focus, input[name=weebly-password]:focus {
+  border-color: #709eff;
+  box-shadow: 0 0 0 3px rgba(112,158,255,.3); }
